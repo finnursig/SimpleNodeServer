@@ -1,0 +1,21 @@
+{
+	"site": {
+		"name": "Simple Node Server",
+		"layout": "layout.html"
+	},
+	"auth": {
+		"enabled": false,
+		"username": "user",
+		"password": "pass"
+	},
+	"routes": [
+		{
+			"rule": "/elements",
+			"name": "Elements",
+			"view": "elements.html",
+			"data": {
+				"hello": "world"
+			}
+		}
+	]
+}

@@ -1,0 +1,15 @@
+{
+	"name" : "SimpleNodeServer",
+	"version": "1.0.0",
+	"description" : "Simple node server used to build static html/css",
+	"author": "Finnur Sigurðsson <finnursigu@gmail.com>",
+	"contributors": [
+		"Finnur Sigurðsson"
+	],
+	"dependencies": {
+		"mu2": "*",
+		"less": "*",
+		"express": "*",
+		"mootools": "*"
+	}
+}

@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+
+	<!--[if lt IE 7]> <html lang="en" class="lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+	<!--[if IE 7]> <html lang="en" class="lt-ie9 lt-ie8"> <![endif]-->
+	<!--[if IE 8]> <html lang="en" class="lt-ie9"> <![endif]-->
+	<!--[if gt IE 8]><!--><html lang="en" class=""><!--<![endif]-->
+
+	<head>
+		
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=1020">
+
+		<title>{{ page.name }} ‹ {{ site.name }}</title>
+
+		<link type="text/css" rel="stylesheet" href="/css/main.less">
+
+		<!--[if lt IE 9]>
+		<script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+		<![endif]-->
+	
+		<script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+		<script src="/js/libs/select.js"></script>
+
+		<script src="/js/Tabs/SkapalonTabs.js"></script>
+
+		<script src="/js/libs/jquery.event.move.js"></script>
+		<script src="/js/libs/sidebar.js"></script>
+		<script src="/js/navigation.js"></script>
+	</head>
+
+	<body>
+
+		<div class="skapalon-wrap">
+
+			<header class="skapalon-header">
+				<a class="logo" href="/">{{ site.name }}</a>
+			</header>
+
+			<div class="skapalon-content">
+
+				{{{body}}}
+
+			</div>
+
+			<footer class="skapalon-footer">
+				Skapalón &copy; 2013
+			</footer>
+
+		</div>
+		
+		{{>_sidebar.html }}
+
+	</body>
+
+</html>
